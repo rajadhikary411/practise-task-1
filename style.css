@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shared css */
+.font-style{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #3a3a3a;
+}
+/* nav-style */
+.navber{
+    max-width:80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+ul{
+ display: flex;
+ 
+}
+.nav-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3a3a3a;
+}
+.text-style{
+    margin-right: 34px;
+    list-style-type: none;
+}
+.nav-style{
+    text-decoration: none;
+}
