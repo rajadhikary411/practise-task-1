@@ -139,6 +139,7 @@ ul{
     padding: 17px 15px ;
     text-align: left;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
 }
 .card .card-img{
     width: 100%;
@@ -158,6 +159,7 @@ ul{
     max-width: 80%;
     margin: 0 auto;
     gap: 96px;
+    margin-bottom: 100px;
 }
 .mechanic>img{
     width: 100%;
@@ -183,5 +185,34 @@ ul{
     color: white;
     font-weight: 800;
     border: none;
+   
+}
+/* footer */
+.foot{
+    background-color: rgb(10, 10, 52);
+    width: 100%;
+    padding: 50px;
+}
+.foot-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.foot-des{
+    color: white;
+    text-align: center;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.logo{
+    font-size: 50px;
+    color: white; 
    
 }
