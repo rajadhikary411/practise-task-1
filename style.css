@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+/* body background-color */
+body{
+    background-color: whitesmoke;
+}
 /* shared css */
 .font-style{
     font-weight: 600;
@@ -32,4 +36,44 @@ ul{
 }
 .nav-style{
     text-decoration: none;
+}
+/* camera style */
+.camera-container{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.camera{
+    background-image: url("./images/Circle\ design.svg");
+    padding: 30px;
+}
+.camera-img{
+    width: 100%;
+}
+.camera-text{
+    text-align: left;
+    width: 582px;
+    height: 270px;
+}
+.camera-title{
+ font-weight: bold;
+ font-size: 3.5rem;
+ margin-bottom: 30px;
+
+}
+/* button-style */
+.primary-btn{
+    background-color: #E02C6D;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border: none;
+    text-align: center;
 }
