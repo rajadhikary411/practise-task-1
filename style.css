@@ -216,3 +216,47 @@ ul{
     color: white; 
    
 }
+@media screen and (min-width:576px) and (max-width:992px) {
+    .camera{
+        background-color: red;
+    }
+}
+@media screen and (max-width:576px) {
+    .navber,ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .camera-container{
+        flex-direction: column-reverse;
+    }
+    .camera{
+        width: 100%;
+        margin-bottom: 20px;
+        height: 100%;  
+    }
+    .camera .camera-img{
+        min-width: 100%;
+    }
+    .camera-text{
+        text-align: center;
+    }
+    .primary-btn{
+        padding: 20px 50px;
+        border-radius: 30px;
+    }
+    .alibaba-head{
+     margin-top: 50px;
+     width: 90%;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     border: none;
+     height: auto;
+     padding: 20px;
+     padding-left: 70px;
+     margin: 0 auto;
+    }
+    .alibaba{
+     
+    }
+}
