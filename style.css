@@ -70,6 +70,8 @@ ul{
 .camera{
     background-image: url("./images/Circle\ design.svg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding: 30px;
 
 }
@@ -86,8 +88,7 @@ ul{
  font-weight: bold;
  font-size: 3.5rem;
  margin-bottom: 30px;
- background-color: ye\;
-
+ 
 }
 /* button-style */
 .primary-btn{
@@ -225,20 +226,32 @@ ul{
     .navber,ul{
         flex-direction: column;
         gap: 10px;
+        
     }
     .camera-container{
         flex-direction: column-reverse;
     }
     .camera{
-        width: 100%;
         margin-bottom: 20px;
-        height: 100%;  
+       
     }
     .camera .camera-img{
-        min-width: 100%;
+        min-width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .camera-text{
+        width: 90%;
         text-align: center;
+    }
+    .camera-title{
+        font-size: 2rem;
+       
+    }
+    .font-style{
+        text-align: justify;
+        padding: 10px;
     }
     .primary-btn{
         padding: 20px 50px;
@@ -253,10 +266,24 @@ ul{
      border: none;
      height: auto;
      padding: 20px;
-     padding-left: 70px;
      margin: 0 auto;
+     justify-content: center;
     }
-    .alibaba{
-     
+
+    .main-div{
+        width: 100%;
     }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .foot{
+        width: 70%;
+        margin: 0 auto;
+    }
+  .last-div{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
 }
